@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="bootstrap-4.5.2-dist/css/bootstrap-grid.min.css">
+<link rel="stylesheet" href="bootstrap-4.5.2-dist/css/bootstrap.min.css">
+<style>
+    #div1{
+        width:300px;
+        float: left;
+    }
+#div2{
+  height:0px;
+  width:1px;
+  float:left;
+        background: transparent;
+        border: none;
+        border-top: dashed 2px orange;
+        position: relative;;
+        border-radius: 50%;
+       
+ 
+  
+  
+  margin-top:150px;
+  -webkit-animation: increase 3s;
+  -moz-animation:    increase 3s; 
+  -o-animation:      increase 3s; 
+  animation:         increase 3s; 
+  animation-fill-mode: forwards;
+  animation-fill-mode:backwards;
+  animation-iteration-count: infinite;
+ 
+}
+
+@keyframes increase {
+    100% {
+        width: 300px;
+        border-radius:50%;
+        padding: 40px 40px;
+    }
+}
+</style>
+    </head>
+    <body>
+        <img src="images/laptop.jpg" width="200px" height="200px" style="float:left;margin-top:100px;position: relative;"/>
+        <div id="div1">
+            <div id="div2">
+
+            </div>
+        </div>
+        <img src="images/laptop.jpg" width="200px" height="200px" style="float:left;margin-top:100px;margin-left:10px;position: relative;"/>
+        
+    </body>
+</html>
